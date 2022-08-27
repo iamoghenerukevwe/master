@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import Logo from './files/LOGO.png';
+import Resume from './files/Resume.pdf';
+import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
 function App() {
   return (
