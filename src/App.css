@@ -8,6 +8,7 @@ body{
   background-color: #030e1d;
   font-family: Signika Negative;
   color: white;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='15' height='15'><rect rx='20' width='100%' height='100%' fill='rgb(100, 255, 218, 0.7)' /><text x='50%' y='50%' font-family='sans-serif' font-weight='bold' font-size='14' dominant-baseline='middle' text-anchor='middle' fill='white'></text></svg>") 16 0, auto;
 }
 
 .nav{
@@ -257,6 +258,7 @@ body{
   display: flex;
   width: auto;
   padding: auto;
+  margin-bottom: 20vh;
   justify-content: space-between;
 }
 
@@ -274,7 +276,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0vh;
+  margin-bottom: 5vh;
   margin-right: 0;
   
 }
@@ -289,24 +291,21 @@ body{
 .ripple{
   height: 50vh;
   display: flex;
-  font-size: 10px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: red;
   
 }
 
 .ripple p{
-  font-size: 3em;
+  font-size: .6em;
   display: flex;
   width: 100%;
   flex-direction: row;
-  float: none;
-  margin-bottom: 3vh;
+  margin-top: 4vh;
 }
 .innerIam{
-  font-size: 4em;
+  font-size: .6em;
 }
 .ripple b{
   width: 55vw;
@@ -315,12 +314,13 @@ body{
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 7vh;
 }
 
 @keyframes move{
   0%  { top: 0px; }
-  20% { top: -45px; }
-  40% { top: -100px; }
+  20% { top: -35px; }
+  40% { top: -70px; }
   60% { top: 0px; }}
 }
 
