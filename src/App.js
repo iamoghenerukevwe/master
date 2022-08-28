@@ -6,44 +6,42 @@ import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 function App() {
   return (
     <div className="App">
-      <div className = "nav">
-      <img src= {Logo} alt ="airdward" height = {25} width = {28} />
 
-      <a href= {Resume}  rel="noreferrer"><button className= "button">Résumé</button></a>
+      <div className = "nav">
+
+          <img src= {Logo} alt ="airdward" height = {35} width = {38} />
+
+          <a href= {Resume}  rel="noreferrer"><button className= "button">Résumé</button></a>
+
       </div>
 
       <div className = "body">
 
       <div className = "socials">
-        
-      
-      <div className = "each">
-        <a href="https://twitter.com/M_airdward" target="_blank" rel="noreferrer">
-          
-          <FiTwitter size = {22}/>
-          </a>
-        </div>
-      <div className = "each">
-        <a href="https://www.linkedin.com/in/michael-oghenerukevwe-edward-6b1533134/" target="_blank" rel="noreferrer">
-      <FiLinkedin size = {22}/>
-        </a></div>
-      <div className = "each"><a href="https://github.com/iamoghenerukevwe" target="_blank" rel="noreferrer">
-      <FiGithub size = {22}/>
-        </a></div>
+              
+          <div className="link">
+
+            <div className = "each"><a href="https://twitter.com/M_airdward" target="_blank" rel="noreferrer"><FiTwitter size = {22}/></a></div>
+
+            <div className = "each"><a href="https://www.linkedin.com/in/michael-oghenerukevwe-edward-6b1533134/" target="_blank" rel="noreferrer"><FiLinkedin size = {22}/></a></div>
+
+            <div className = "each"><a href="https://github.com/iamoghenerukevwe" target="_blank" rel="noreferrer"><FiGithub size = {22}/></a></div>
+
+          </div>
+
+          <div className = "line"></div>
       
       </div>
       
       <div className = "text">
+
         <div className = "small"> Hey, my name is</div>
 
-
-        <div className = "name">
-          
-        Michael Edward
-          <span>.</span></div>
-          <div className= "ripple">
+        <div className = "name">Michael Edward<span>.</span></div>
+        
+        <div className= "ripple">
             
-          <p>I love creating beautiful</p>
+            <p>I love creating beautiful</p>
             <b>
               <div className="innerIam">
                 sites.<br /> 
@@ -52,7 +50,8 @@ function App() {
                 </div>
             </b>
           
-          </div>
+        </div>
+
         <div className = "write">
           
           As a designer, my aspiration is to make less seem more, <br/>I love minimalism
@@ -64,12 +63,8 @@ function App() {
           <ripple />
           
           </div>
-          
          
-          <a href= "mailto: chokotagrp@gmail.com" target="_blank" rel="noreferrer"><button className="button-52">Say Hello!</button></a>
-
-        
-        
+          <a href= "mailto: chokotagrp@gmail.com" target="_blank" rel="noreferrer"><button className="button-52">Say Hello!</button></a>        
         
       </div>
       
@@ -77,6 +72,7 @@ function App() {
 
     
       </div>
+
     </div>
   );
 }

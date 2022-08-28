@@ -21,6 +21,11 @@ body{
   margin-right: 3%;
 }
 
+.nav img{
+  padding: 4px;
+  border: 3px solid #64ffda;
+}
+
 .button{
     font-size: 16px;
     font-family: Signika Negative;
@@ -52,6 +57,7 @@ body{
     min-width: 10px;
   }
 }
+
 .body{
   display: flex;
   flex-direction: row;
@@ -59,9 +65,10 @@ body{
   align-items: center;
   
 }
+
 .socials{
   width: 15%;
-  height: 25vh;
+  height: 81.2vh;
   margin-top: 4%;
   margin-right: 3%;
   display: flex;
@@ -71,12 +78,35 @@ body{
   padding-top: 1.5%;
 }
 
+.link{
+  margin-top: 3.5vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  justify-content: space-between;
+  height: 46vh;
+  color: white;
+  text-decoration: none;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #64ffda;
+}
 .each{
   width: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   vertical-align: auto;
+  text-decoration: none;
+}
+
+.line{
+  width: .1vw;
+  height: 29vh;
+  background-color: #ccd6f6;
+
 }
 
 .text{
@@ -245,14 +275,17 @@ body{
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 
 
   .body {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-top: 15vh;
+
+}
+.socials{
+  height: 10vh;
 }
 .nav{
   display: flex;
@@ -262,28 +295,25 @@ body{
   justify-content: space-between;
 }
 
-.socials{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 60vw;
-  border: none;
-  height: 20vh;
+.line{
+  display: none;
 }
 
+.link{
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  margin-top: 7vh;
+}
 .text{
   
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5vh;
   margin-right: 0;
   
 }
-.socials{
-  margin-top: 14vh;
-  height: 4vh;
-}
+
 .name{
   font-size: 2.5em;
   width: 80vw;
