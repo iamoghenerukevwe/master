@@ -103,7 +103,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .line{
-  width: .1vw;
+  width: .14vw;
   height: 29vh;
   background-color: #ccd6f6;
 
@@ -112,7 +112,7 @@ a, a:hover, a:focus, a:active {
 .text{
   width: 90%;
   margin-right: 8%;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
