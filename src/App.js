@@ -1,6 +1,5 @@
 import './App.css';
 import Logo from './files/LOGO.png';
-import Resume from './files/Resume.pdf';
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
 function App() {
@@ -11,7 +10,8 @@ function App() {
 
           <img src= {Logo} alt ="airdward" height = {35} width = {38} />
 
-          <a href= {Resume}  rel="noreferrer"><button className= "button">Résumé</button></a>
+          <a href= "https://drive.google.com/file/d/1jqXOe54_0IJAwx5YR2NwLV79-mIi4t5d/view?usp=sharing" target="_blank" rel="noreferrer"><button className= "button">Résumé</button></a>
+          
 
       </div>
 
@@ -65,10 +65,14 @@ function App() {
           </div>
          
           <a href= "mailto: chokotagrp@gmail.com" target="_blank" rel="noreferrer"><button className="button-52">Say Hello!</button></a>        
+
+              <div className="scroll">
+                 <div className= "wheel"></div>
+              </div>
         
       </div>
       
-      
+     
 
     
       </div>
